@@ -9,10 +9,11 @@ function App() {
     <BrowserRouter>
       <nav>Our Navbar</nav>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="products" element={<Products />} />
-        <Route path="*" element={<Error />} />
+        <Route path="/" element={<Home />}>
+          <Route path="about" element={<About />} />
+          <Route path="products" element={<Products />} />
+          <Route path="*" element={<Error />} />
+        </Route>
       </Routes>
       <footer>Our Footer</footer>
     </BrowserRouter>
