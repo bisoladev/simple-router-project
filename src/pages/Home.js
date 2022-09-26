@@ -4,8 +4,9 @@ import Navbar from "./Navbar";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <Outlet />
+      <section className="section">
+        <h1>Home Page</h1>
+      </section>
     </>
   );
 };
