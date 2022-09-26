@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 
-const Home = () => {
+const SharedLayout = () => {
   return (
     <>
       <section className="section">
@@ -10,4 +10,4 @@ const Home = () => {
     </>
   );
 };
-export default Home;
+export default SharedLayout;
