@@ -17,7 +17,7 @@ const StyledNavbar = () => {
         About
       </NavLink>
       <NavLink
-        to="/product"
+        to="/products"
         className={({ isActive }) => (isActive ? "link active" : "link")}
       >
         Products
