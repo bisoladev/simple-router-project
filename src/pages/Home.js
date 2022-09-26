@@ -5,11 +5,8 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <section className="section">
       <Outlet />
-    </section>
     </>
-    
   );
 };
 export default Home;
